@@ -8,8 +8,6 @@ if( typeof value1===typeof value2){
 		  return false;
 		  
 	  }
-        
-
 	
 }
 
