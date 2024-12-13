@@ -1,6 +1,7 @@
 function isSameType(value1, value2) {
   //your js code here
-if( typeof value1===typeof value2){ if(((typeof value1===NaN) !== (typeof value2===NaN))){
+if( typeof value1===typeof value2){ 
+	if(((typeof value1===NaN) && (typeof value2!==NaN)) || ((typeof value2===NaN) && (typeof value1!==NaN))){
         return false;
     }
 								   else{
