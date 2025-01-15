@@ -4,6 +4,9 @@ if( typeof value1===typeof value2){
 	 if(isNaN(value1) && Number(value2) ){
         return false;
 		   }
+	else if(isNaN(value2) && Number(value1) ){
+                return false;
+                   }
   	return true;
 } 
 	else{
